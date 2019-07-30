@@ -1,0 +1,50 @@
+body{
+  background: #007991;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Poppins', sans-serif;
+}
+
+.page-container {
+    width: 50%;
+    margin: 5% auto 0 auto;
+}
+.form-container {
+    padding: 30px;
+    border: 1px solid #cccc;
+    background: #FEFEFE;
+}
+.error,.success  {
+    font-size: 18px;
+}
+.error {
+    color: #b30000;
+}
+.success {
+    color: #155724;
+}
+.download-zip {
+    color: #000000;
+}
+
+h1{
+  font-family: 'Fjalla One', sans-serif;
+  color:white;
+  margin-top: 2%;
+
+}
+
+a:link{
+  color:#007991;
+}
+a:hover{
+  color:white;
+}
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
